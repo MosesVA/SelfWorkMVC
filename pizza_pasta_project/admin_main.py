@@ -18,12 +18,12 @@ print(ChangePizza.remove_from_menu('Грибная'))
 # print(pizza_changer.add_to_menu('Лесная'))
 
 pasta_changer = ChangePasta('Мак энд чиз')
-print(pizza_changer.set_new_cost_price('Мак энд чиз', 150))
-print(pizza_changer.set_new_sale_price('Мак энд чиз', 200))
-print(pizza_changer.set_ingredients('Мак энд чиз', "сыр Манчестер", "сыр Чеддер", "макароны из кукурузной муки",
+print(pasta_changer.set_new_cost_price('Мак энд чиз', 150))
+print(pasta_changer.set_new_sale_price('Мак энд чиз', 200))
+print(pasta_changer.set_ingredients('Мак энд чиз', "сыр Манчестер", "сыр Чеддер", "макароны из кукурузной муки",
                                     "сливки 10%", "масло сливочное"))
-print(pizza_changer.add_to_menu('Мак энд чиз'))
-removed_data, new_menu = ChangePizza.remove_from_menu('Мак энд чиз')
+print(pasta_changer.add_to_menu('Мак энд чиз'))
+removed_data, new_menu = ChangePasta.remove_from_menu('Мак энд чиз')
 print(removed_data)
 print(new_menu)
-print(ChangePizza.remove_from_menu('Мак энд чиз'))
+print(ChangePasta.remove_from_menu('Мак энд чиз'))
